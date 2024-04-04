@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+a {
+  margin-left: 5px;
+}
+
+.resume {
+  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.resume .left {
+  padding: 20px 40px;
+  width: 50%;
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+.resume .left h1 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.resume .left h2 {
+  width: 400px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+.resume .right {
+  padding: 20px 20px;
+  width: 25%;
+  border: 1px solid green;
+}
+.resume .right .contact .github {
+  margin-left: 20px;
+  display: flex;
+}
+.resume .right .contact .telegramm {
+  margin-left: 20px;
+  display: flex;
+}
+.resume .right .contact .phone {
+  margin-left: 20px;
+  display: flex;
+}
+.resume .right li {
+  margin-left: 30px;
+}
+.resume .right h2 {
+  margin-bottom: 5px;
+}
+.resume .right .projects h3 {
+  margin-left: 20px;
+}
+.resume .right .projects .first-block {
+  display: flex;
+}
+.resume .right ol li {
+  margin-left: 40px;
+}/*# sourceMappingURL=style.css.map */
